@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Il Mio Giornale</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 40px;
+            background-color: #f4f1ea;
+        }
+
+        .giornale {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: normal;
+            margin-top: 0;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+
+        .contenuto {
+            column-count: 2;
+            column-gap: 30px;
+            margin-top: 20px;
+            text-align: justify;
+        }
+
+        .contenuto img {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .articolo {
+            break-inside: avoid;
+        }
+
+        .titolo-articolo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="giornale">
+    <h1>IL GIORNALE DEL GIORNO</h1>
+    <h2>Notizie fresche dal mondo</h2>
+
+    <div class="contenuto">
+        <div class="articolo">
+            <div class="titolo-articolo">Scoperta incredibile!</div>
+            <p>
+                Una scoperta sensazionale ha sorpreso il mondo scientifico. 
+                Gli esperti stanno ancora studiando le implicazioni di questo evento.
+            </p>
+
+            <img src="https://picsum.photos/400/200" alt="Immagine notizia">
+
+            <p>
+                Secondo le prime analisi, questa scoperta potrebbe cambiare il futuro 
+                della tecnologia e della ricerca. Ulteriori aggiornamenti sono attesi 
+                nei prossimi giorni.
+            </p>
+        </div>
+
+        <div class="articolo">
+            <div class="titolo-articolo">Economia in crescita</div>
+            <p>
+                I dati recenti mostrano una crescita significativa nei mercati globali.
+                Gli investitori sono ottimisti riguardo alle prospettive future.
+            </p>
+
+            <p>
+                Tuttavia, gli analisti invitano alla cautela, sottolineando possibili
+                rischi legati all'instabilità internazionale.
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
